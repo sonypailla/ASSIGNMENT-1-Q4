@@ -10,16 +10,16 @@ This repository contains the code for **Question 4** of the **CS5720 - Neural Ne
 
 ## Questions to Answer
 1. **What patterns do you observe in the training and validation accuracy curves?**
-   Answer:
-
 Typically, in the beginning, both the training and validation accuracy start lower and gradually increase.
 If the training accuracy increases significantly while the validation accuracy plateaus or decreases, it might indicate overfitting, where the model is learning the training data too well but not generalizing to new data.
 If both training and validation accuracy increase steadily and converge, it indicates the model is likely generalizing well.
 If the validation accuracy is much lower than training accuracy, this might suggest that the model is underfitting, meaning it hasn’t learned enough from the training data.
 
+
+
+
    
-2. **How can you use TensorBoard to detect overfitting?**
-   Answer:
+2. **How can you use TensorBoard to detect overfitting?*
 
 TensorBoard is a powerful tool that allows you to visualize various aspects of your model’s performance during training, such as loss, accuracy, and more.
 To detect overfitting, you can monitor the training and validation loss or accuracy curves. If the training accuracy continues to improve while the validation accuracy stagnates or decreases, overfitting might be occurring.
@@ -27,6 +27,10 @@ By visualizing these curves in TensorBoard, you can easily detect a divergence b
 You can also track other metrics like learning rate and histograms of weights to understand if overfitting is happening, or if the model weights are becoming too large and unstable.
 
    
+
+
+
+
 3. **What happens when you increase the number of epochs?**
   Answer:
 
